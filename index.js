@@ -1,95 +1,96 @@
-const perguntas = [
-    {
-      pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?", 
-      respostas: [
-        "var",
-        "int",
-        "string",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o operador usado para atribuição de valores em JavaScript?",
-      respostas: [
-        "=",
-        "==",
-        "===",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como você escreve um comentário de uma linha em JavaScript?",
-      respostas: [
-        "/* */",
-        "//",
-        "<>",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o método usado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "push()",
-        "add()",
-        "append()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Em JavaScript, qual dos seguintes é um tipo de dado não primitivo?",
-      respostas: [
-        "string",
-        "number",
-        "object",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é o operador lógico AND em JavaScript?",
-      respostas: [
-        "&&",
-        "||",
-        "!",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como você converte uma string em um número inteiro em JavaScript?",
-      respostas: [
-        "parseInt()",
-        "toInt()",
-        "stringToInt()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
-      respostas: [
-        "pop()",
-        "remove()",
-        "delete()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como você declara uma função em JavaScript?",
-      respostas: [
-        "func",
-        "function",
-        "def",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o resultado da expressão `3 + 2 + '7'` em JavaScript?",
-      respostas: [
-        "12",
-        "'57'",
-        "57",
-      ],
-      correta: 1
-    }
-  ];
+const perguntasDragonBall = [
+  {
+    pergunta: "Quem é o protagonista principal de Dragon Ball?",
+    respostas: [
+      "Vegeta",
+      "Goku",
+      "Piccolo"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome da técnica de assinatura de Goku que ele usa para derrotar Freeza na saga Namekusei?",
+    respostas: [
+      "Kamehameha",
+      "Spirit Bomb",
+      "Kaio-Ken"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quem é o príncipe da raça Saiyajin?",
+    respostas: [
+      "Goku",
+      "Vegeta",
+      "Raditz"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do planeta natal dos Saiyajins?",
+    respostas: [
+      "Namekusei",
+      "Terra",
+      "Vegeta"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do pai de Goku?",
+    respostas: [
+      "Vegeta",
+      "Bardock",
+      "Raditz"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quem é o arqui-inimigo de Goku na série Dragon Ball Z?",
+    respostas: [
+      "Cell",
+      "Freeza",
+      "Majin Buu"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome da fusão entre Goku e Vegeta?",
+    respostas: [
+      "Gogeta",
+      "Gotenks",
+      "Vegetto"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do ataque de assinatura de Vegeta?",
+    respostas: [
+      "Final Flash",
+      "Galick Gun",
+      "Big Bang Attack"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do animal de estimação de Goku?",
+    respostas: [
+      "Shenlong",
+      "Porunga",
+      "Kuririn"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem é o primeiro vilão principal que Goku enfrenta em Dragon Ball Z?",
+    respostas: [
+      "Freeza",
+      "Raditz",
+      "Cell"
+    ],
+    correta: 1
+  }
+];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
